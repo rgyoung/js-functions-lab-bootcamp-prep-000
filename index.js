@@ -1,9 +1,15 @@
 function happyHolidays () {
   return "Happy holidays!"
 }
-/*function happyHolidaysTo(name){
-  name=you;
+function happyHolidaysTo(name){
+  return `Happy holidays to ${name}!`
 console.log ('Happy holidays, ${name}')
-}*/
+}
 
-function happyHolidayTo()
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
+}
+function holidayCountdown(days, holiday) {
+return `It's ${days} days until ${holiday}!`
+  
+}
